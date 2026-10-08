@@ -1,3 +1,145 @@
-<html>
-  <body>Hello world</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#eef7ff">
+    <meta name="description" content="I'm Robert Wydra: a developer at SAP, creator of OtterShot, and an enthusiastic explorer of AI, local language models, and what comes next.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Robert Wydra - Developer & AI enthusiast">
+    <meta property="og:description" content="Building with AI, tinkering with local models, and looking towards the stars.">
+    <meta property="og:url" content="https://wydra.dev/">
+    <title>Robert Wydra - Developer & AI enthusiast</title>
+    <link rel="canonical" href="https://wydra.dev/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page">
+      <header class="site-header">
+        <a class="wordmark" href="#main" aria-label="rw. - Robert Wydra, back to introduction">rw<span aria-hidden="true">.</span></a>
+        <nav aria-label="Page sections">
+          <a href="#work">Work</a>
+          <a href="#after-hours">Play</a>
+          <a href="#outlook">Outlook</a>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="intro" aria-labelledby="intro-title">
+          <div class="intro-copy">
+            <p class="eyebrow">Developer / AI enthusiast / Optimist</p>
+            <h1 id="intro-title">Robert<br>Wydra<span class="full-stop">.</span></h1>
+            <p class="intro-lead">I build things with AI.<br>And have a lot of fun doing it.</p>
+            <p class="intro-description">At work, I bring AI agents together. After hours, I tinker with local models, look after OtterShot, and explore what technology can make possible.</p>
+            <div class="contact-links" aria-label="Find me online">
+              <a href="https://github.com/eczajnik" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/teapot/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+              <span id="email-contact" class="email-contact"></span>
+              <noscript><span class="email-fallback">eczajnik [at] gmail [dot] com</span></noscript>
+            </div>
+          </div>
+          <figure class="portrait">
+            <img src="assets/robert.png" alt="Portrait of Robert Wydra in a blue two-colour dither." width="480" height="560" fetchpriority="high">
+            <figcaption>Keep it simple. Embrace the acceleration.</figcaption>
+          </figure>
+        </section>
+        <section class="essay-section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="section-icon" width="20" height="20" focusable="false" data-icon="briefcase">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"/>
+            </svg>
+            <h2 id="work-title">At work</h2>
+          </div>
+          <div class="section-body">
+            <p>I work at <a href="https://www.sap.com/" target="_blank" rel="noopener noreferrer">SAP</a> as an <strong>Application Engineering Expert / Technical Product Owner</strong>, building an application where multiple AI agents work together.</p>
+            <p>I really like working there and I encourage you to <a href="https://jobs.sap.com/en/" target="_blank" rel="noopener noreferrer">look at the current openings</a> we have.</p>
+          </div>
+        </section>
+        <section class="essay-section" id="after-hours" aria-labelledby="play-title">
+          <div class="section-heading">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="section-icon" width="20" height="20" focusable="false" data-icon="wrench-screwdriver">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"/>
+            </svg>
+            <h2 id="play-title">After hours</h2>
+          </div>
+          <div class="section-body project">
+            <a class="project-logo" href="https://ottershot.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit OtterShot">
+              <img src="assets/ottershot.png" alt="OtterShot's otter mascot holding a sporting rifle, in blue two-colour dither." width="192" height="192" loading="lazy" decoding="async">
+            </a>
+            <div class="project-copy">
+              <h3><a href="https://ottershot.com/" target="_blank" rel="noopener noreferrer">OtterShot <span aria-hidden="true">↗</span></a></h3>
+              <p>My spare-time project for sport shooters: <strong>free shot analysis</strong>, available at <a href="https://ottershot.com/" target="_blank" rel="noopener noreferrer">ottershot.com</a>. I build and maintain it because useful tools should be within everyone's reach.</p>
+              <a class="small-link" href="https://ottershot.com/" target="_blank" rel="noopener noreferrer">Give it a shot <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </section>
+        <section class="essay-section" id="exploring" aria-labelledby="exploring-title">
+          <div class="section-heading">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="section-icon" width="20" height="20" focusable="false" data-icon="cpu-chip">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z"/>
+            </svg>
+            <h2 id="exploring-title">Exploring AI</h2>
+          </div>
+          <div class="section-body">
+            <p>I spend a lot of time experimenting with <strong>local language models</strong>. There's something especially satisfying about running a model on your own machine, especially those that  are free (have guardrails removed).</p>
+            <p>I also follow what's new in AI, especially tools for developers. <strong>Codex, Claude Code and Hermes</strong> are part of how I make things now. Trying out ideas, building something cool, sharing it with friends and other enthusiasts. I'm having a great time.</p>
+          </div>
+        </section>
+        <section class="essay-section" id="following" aria-labelledby="following-title">
+          <div class="section-heading">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="section-icon" width="20" height="20" focusable="false" data-icon="book-open">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+            </svg>
+            <h2 id="following-title">Worth following</h2>
+          </div>
+          <div class="section-body">
+            <p>A few places I keep coming back to.</p>
+            <dl class="reading-list">
+              <div>
+                <dt>Communities</dt>
+                <dd><a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener noreferrer">r/LocalLLaMA <span aria-hidden="true">↗</span></a><span class="resource-note">My regular stop for local models, lots of inspiration and cool ideas.</span></dd>
+                <dd><a href="https://www.reddit.com/r/accelerate/" target="_blank" rel="noopener noreferrer">r/accelerate <span aria-hidden="true">↗</span></a><span class="resource-note">No slowing down. Decels are banned immediately. Let's go!</span></dd>
+              </div>
+              <div>
+                <dt>Listening & reading</dt>
+                <dd><a href="https://aidailybrief.ai/" target="_blank" rel="noopener noreferrer">The AI Daily Brief <span aria-hidden="true">↗</span></a><span class="resource-note">Awesome to the point podcast I recommend. Around 30m, perfect for the morning commute.</span></dd>
+                <dd><a href="https://x.com/" target="_blank" rel="noopener noreferrer">X <span aria-hidden="true">↗</span></a><span class="resource-note">Too many interesting accounts to list. Start with <a href="https://x.com/mervenoyann" target="_blank" rel="noopener noreferrer">merve</a> and <a href="https://x.com/karpathy" target="_blank" rel="noopener noreferrer">Andrej</a> and go from there.</span></dd>
+              </div>
+              <div>
+                <dt>On YouTube</dt>
+                <dd class="video-links">
+                  <a href="https://www.youtube.com/@AZisk" target="_blank" rel="noopener noreferrer">Alex Ziskind <span aria-hidden="true">↗</span></a>
+                  <a href="https://www.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer">Fireship <span aria-hidden="true">↗</span></a>
+                  <a href="https://www.youtube.com/@theAIsearch" target="_blank" rel="noopener noreferrer">AI Search <span aria-hidden="true">↗</span></a>
+                  <a href="https://www.youtube.com/@Bijanbowen" target="_blank" rel="noopener noreferrer">Bijan Bowen <span aria-hidden="true">↗</span></a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+        <section class="essay-section outlook" id="outlook" aria-labelledby="outlook-title">
+          <div class="section-heading">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="section-icon" width="20" height="20" focusable="false" data-icon="rocket-launch">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+            </svg>
+            <h2 id="outlook-title">Towards the stars</h2>
+          </div>
+          <div class="section-body">
+            <p class="outlook-lead">I'm optimistic about what comes next.</p>
+            <p>I support accelerationism and <strong>e/acc</strong>, especially <strong>eu/acc</strong>. I believe that the faster we develop AI, the sooner we'll be able to tackle climate change, cure diseases, overcome death, and reach the stars.</p>
+            <p>A big part of that outlook comes from <strong>Iain M. Banks's <cite>Culture</cite> series</strong>: stories that helped me imagine a future of abundance, curiosity, and possibility. If that sounds like your kind of future, I highly recommend his books.</p>
+            <!-- <p class="closing-note">More curiosity. More building. More possibility.</p> -->
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <span>© <span id="copyright-year"></span> Robert Wydra</span>
+        <span>This site uses just two colours. Look how much you can do with so little.</span>
+        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
 </html>
